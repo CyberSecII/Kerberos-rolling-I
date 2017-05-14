@@ -1,0 +1,94 @@
+Package: apt-kerberos
+Version: 8.9.32
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 36
+Homepage: http://www.blackhatsec.org/
+Priority: required
+Section: system
+Filename: pool/kerberos-rolling/a/apt-kerberos/apt-kerberos_8.9.32_all.deb
+Size: 7202
+SHA256: d76129618e2e0fc612a0b8d6214351929ca643998e155a96e1e94dc14c4586d0
+SHA1: 82a6943989a4be0c881b28e525ead88454f5c0d4
+MD5sum: 95b42ed09cc3d82d5e2dfbf03cf7ba31
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+
+Package: gqrx
+Source: kerberos-meta
+Version: 2017.1.5
+Architecture: all
+Maintainer: Raphaël Hertzog <hertzog@debian.org>
+Installed-Size: 8
+Depends: gqrx-sdr
+Homepage: http://www.kerberos.org
+Priority: optional
+Section: metapackages
+Filename: pool/kerberos-rolling/k/kerberos-meta/gqrx_2017.1.5_all.deb
+Size: 1732
+SHA256: 65aeacef1b62cbf75ed2ca17476630c653d1a889ddf077262a611b90f7f9a386
+SHA1: f757e6574205dd66cf935709267825b8208ca7c9
+MD5sum: b8991cc74f19e1aa9f883f4466251a41
+Description: Transitional package for gqrx-sdr
+ This package is empty. It only depends on gqrx-sdr to ensure a sane
+ upgrade path in Kerberos.
+ .
+ This package can be safely removed once gqrx-sdr has been installed.
+
+Package: kerberos-anonsurf
+Version: 1.5kerberos
+Architecture: all
+Maintainer: Cyber sec <cybersec@blackhatsec.org>
+Installed-Size: 29025
+Depends: secure-delete, tor, i2p, nscd, dnsmasq
+Recommends: gtkdialog, socat, gufw, libnotify-bin, polipo, proxychains, openvpn, torchat
+Suggests: vidalia
+Priority: optional
+Section: net
+Filename: pool/kerberos-rolling/k/kerberos-anonsurf/kerberos-anonsurf_1.5kerberos_all.deb
+Size: 26560890
+SHA256: 9e9fead469f83f037e1fb11ad25ce20cb3fd55c895f5d6b83447ff0d5e57a6df
+SHA1: a3d7e80bc64e1cd50cd3c7c387f6011982f9d076
+MD5sum: 913c4daf169650c2059886d9667adae8
+Description: kerberos anonsurf for kerberos
+ This package contains kerberos anonsurf.
+
+Package: kerberos-goodies
+Version: 9.21.32
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 118
+Depends: perl
+Conflicts: kerberos-goodies, kerberos-goodies-core
+Replaces: kerberos-goodies, kerberos-goodies-core
+Homepage: http://www.blackhatsec.org/
+Priority: optional
+Section: admin
+Filename: pool/kerberos-rolling/k/kerberos-goodies/kerberos-goodies_9.21.32_all.deb
+Size: 27838
+SHA256: 0f6275292ba2d7f01d5617a0c0048204cfe7f42930e024a61aa738806c7c6943
+SHA1: c589ce08e383237513a1bf3fa5578583299e93c8
+MD5sum: 968d91f82e92ad227af0aa453fd1313f
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+ Includes:
+  * burniso (write an ISO image from cli)
+  * fancy-prompts (nine different colorful and interesting prompts)
+  * ps_initrd.sh (initrd packing/unpacking tool)
+  * zram (script to set up zram)
+  * ps_mem.py (RAM usage script)
+  * fstrim-kerberos(auto set up fstrim of SSE drives as a weekly cron job)
+
+Package: kerberos-linux-artwork-extras
+Source: kerberos-artwork
+Version: 1-1kerberos0
+Architecture: all
+Maintainer: Kerberos <KerberosLinux@gmail.com>
+Installed-Size: 226221
+Priority: extra
+Section: xfce
+Filename: pool/kerberos-rolling/k/kerberos-artwork/kerberos-linux-artwork-extras_1-1kerberos0_all.deb
+Size: 52736784
+SHA256: 698aa39501d8210f71e5ac5d4dfc6a74aa1ace9f93b0c07902faa2755f81dfbb
+SHA1: 366a8d44a20c973b706e8bfa3a470d696f1e47aa
+MD5sum: bcd21cd938f5dc8c8e4a83cc92f17695
+Description: Kerberos Linux Package by D4RkNiK0l4s/
+
